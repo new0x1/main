@@ -1,0 +1,71 @@
+.animated-text {
+    font-family: 'Lilita One', cursive;
+    font-size: 64px;
+    background: linear-gradient( 90deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00f0 );
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorchange 5s infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.social-title {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.top-left-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.site-info {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.Tema-Ayarları {
+    margin-top: 20px;
+}
+
+    .Tema-Ayarları button {
+        background-color: #444;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Lilita One', sans-serif;
+        font-size: 16px;
+    }
+
+        .Tema-Ayarları button:hover {
+            background-color: #666;
+        }
